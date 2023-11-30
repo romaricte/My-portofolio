@@ -12,14 +12,11 @@ import { AppComponent } from './app.component';
 const routes: Routes = [
   {
     path: "",
-    component: AppComponent,
+    component: HomeComponent,
 
   },
 
-    {
-      path : 'accueil',
-      component: HomeComponent
-    },
+
     {
       path: 'AProposDeMoi',
       component: AboutComponent
